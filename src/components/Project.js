@@ -18,6 +18,8 @@ function Project() {
           </p>
         </spna>
         <img src={imgGallery} alt="experience photo" className="project1" />
+
+        <img src={bookLibrary} alt="experience photo" className="project2" />
         <spna className="image-Gallery-info2">
           <h4 className="project-name">___Book-Library</h4>
           <p className="project-para">It is single page application that contains headerbuttons <br/>
@@ -28,7 +30,6 @@ function Project() {
           view in a single just by presing a button..
           </p>
         </spna>
-        <img src={bookLibrary} alt="experience photo" className="project2" />
         <spna className="image-Gallery-info3">
           <h4 className="project-name">___Weather App</h4>
           <p className="project-para">It is single page application that contains headerbuttons <br/>
