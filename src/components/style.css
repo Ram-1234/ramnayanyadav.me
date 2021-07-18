@@ -168,7 +168,7 @@ img{
 .myproject{
     /* border: 1px solid black; */
     padding-left: 10%;
-    height: 1200px;
+    height: 1100px;
 }
 .serial-3{
     padding-top: 20px;
@@ -190,7 +190,7 @@ img{
      width: 450px;
      height: 250px;
      position: relative;
-     bottom: 200px;
+     top: 20px;
      right: 60px;
 }
 .project2{
@@ -199,7 +199,7 @@ img{
      width: 450px;
      height: 250px;
      position: relative;
-     top: 120px;
+     top: 60px;
      
 }
 .project3{
@@ -208,7 +208,7 @@ img{
      width: 450px;
      height: 250px;
      position: relative;
-     bottom: 20px;
+     top: 100px;
      right: 60px;
 }
 
@@ -228,16 +228,22 @@ img{
      padding-right: 20px;
 }
 
+.image-Gallery-info1{
+    position: relative;
+    float: left;
+    bottom: 20px;
+}
+
 .image-Gallery-info2{
     position: relative;
     float: right;
-    bottom: 140px;
+    top: 40px;
 }
 
 .image-Gallery-info3{
     position: relative;
     float: left;
-    bottom: 40px;
+    top: 80px;
 }
 
 /* contact me */
@@ -246,7 +252,7 @@ img{
     /* border: 1px solid black; */
     padding-left: 10%;
     background-color: #e9ecef;
-    height: 550px;
+    height: 650px;
     opacity: 0.8;
 }
 .serial-4{
