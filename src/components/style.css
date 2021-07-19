@@ -199,7 +199,7 @@ img{
      width: 450px;
      height: 250px;
      position: relative;
-     top: 60px;
+     top: 70px;
      
 }
 .project3{
@@ -208,7 +208,7 @@ img{
      width: 450px;
      height: 250px;
      position: relative;
-     top: 100px;
+     top: 120px;
      right: 60px;
 }
 
@@ -243,7 +243,7 @@ img{
 .image-Gallery-info3{
     position: relative;
     float: left;
-    top: 80px;
+    bottom: -100px;
 }
 
 /* contact me */
