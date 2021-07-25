@@ -5,10 +5,10 @@ export default function Header() {
     return (
         <>
           <div className="header-div">
-              <span className="about">About</span>
-              <span className="experiences">Experience</span>
-              <span className="project">Projects</span>
-              <span className="about">Contact</span>
+              <span className="header-about">About</span>
+              <span className="header-experience">Experience</span>
+              <span className="header-project">Projects</span>
+              <span className="header-contact">Contact</span>
           </div>   
         </>
     )

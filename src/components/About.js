@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <p className="aboutme">
+        <p className="aboutme-div">
             <h3 className="serial-1">__01</h3>
             <p className='knowabout'>Know <br/>About Me</p>
             <p className="aboutpara1">Hi, I am Ramnayan, Hope you are enjoying your day!<br/><br/>
@@ -10,8 +10,8 @@ export default function About() {
              <br/><br/>
              I am proficient in PHP, JS and Java. I like to build things and tinker with new technologies. I believe Language or technology is just a tool to achieve what is required, hence I am language agnostic and I tend to learn new technologies very quickly.
              <br/><br/>
-             I enjoy a good cup of coffee, travelling, origami and, watching movies and TV shows.</p>
-             <br/><br/>
+             I enjoy a good cup of coffee <strong style={{color:"#9e2a2b",fontSize:"30px"}}>☕</strong>, travelling <strong style={{color:"#9e2a2b",fontSize:"20px"}}>🚎</strong>, origami(art) <strong>🎨</strong> and, watching movies<strong style={{color:"#9e2a2b",fontSize:"20px"}}>🦸</strong>and TV shows.</p>
+             <br/>
              <p className="aboutpara1" style={{color:"#ff7d00"}}>Always happy to create - Bold and hovered but some time! 😊</p>
              <div className="skills">
                 <p className="skill">JavaScript</p>
