@@ -24,7 +24,7 @@ export default function About() {
                 <p className="skill">Java</p>
                 <p className="skill">PHP</p>
             </div>
-             <a href="https://drive.google.com/file/d/1NjMwgbjjqtBKSdWNMlOt9q4pNYyDUAcj/view?usp=sharing" className="downloadresume" download="proposed_file_name">Download Resume</a>
+             <a href="https://drive.google.com/file/d/1K_GyOPDd_Np9y60HSbAyoaMs-meT0zdm/view?usp=sharing" className="downloadresume" download="proposed_file_name">Download Resume</a>
         </p>
     )
 }
