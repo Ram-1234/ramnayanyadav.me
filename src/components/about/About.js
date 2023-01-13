@@ -10,14 +10,15 @@ function About() {
         About Me
       </p>
       <p className="aboutpara1">
-        Hi, I am Ramnayan, Hope you are enjoying your day!
+        Hi, I am Ram, Hope you are enjoying your day!
         <br />
         <br />
         I am Frontend Engineer with a strong Frontend skill-set, focus on
         details and passion for building interactive user experiences for the
         web. I have extensive knowledge of Object-Oriented Programming as well
-        as significant experience of using modern JS frameworks such as Angular
-        and React, and backend framework such as Expressjs.
+        as significant experience of using modern JS Library & framework such as
+        Reactjs Vuejs React native and Angular, nodejs framework such as
+        Expressjs.
         <br />
         <br />
         I am proficient in PHP, JS and Java. I like to build things and tinker
@@ -42,11 +43,11 @@ function About() {
         <p className="skill">React Js</p>
         <p className="skill">Angular</p>
         <p className="skill">MongoDB</p>
+        <p className="skill">HTML5/CSS3</p>
+        <p className="skill">Node</p>
         <p className="skill">Redux</p>
-        <p className="skill">MySql</p>
-        <p className="skill">HTML/CSS</p>
-        <p className="skill">Java</p>
-        <p className="skill">PHP</p>
+        <p className="skill">Vuejs</p>
+        <p className="skill">React Native</p>
       </div>
       <a
         href="https://drive.google.com/file/d/1K_GyOPDd_Np9y60HSbAyoaMs-meT0zdm/view?usp=sharing"

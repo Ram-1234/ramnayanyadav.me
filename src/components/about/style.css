@@ -24,18 +24,17 @@
 .aboutpara1 {
   font-family: "Courier New", Courier, monospace;
   line-height: 20px;
-  width: 700px;
-  /* width: fit-content; */
+  width: 70%;
   word-spacing: 1px;
 }
 
 .skills {
   float: right;
-  width: 280px;
-  height: 150px;
+  width: 25%;
+  height: auto;
   position: relative;
   bottom: 250px;
-  right: 60px;
+  /* right: 60px; */
   /* border: 1px solid black; */
 }
 
@@ -43,9 +42,14 @@
   background-color: #ff7d00;
   margin: 5px;
   padding: 10px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
   display: inline-flex;
+  cursor: pointer;
+  color: #fff;
+  line-height: 24px;
+  box-sizing: border-box;
+  font-weight: bold;
 }
 .skill:hover {
   opacity: 0.8;

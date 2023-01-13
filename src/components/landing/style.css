@@ -1,10 +1,15 @@
-.status {
-  opacity: 1;
-  z-index: 0;
-  position: absolute;
-  top: 110%;
-  left: 55%;
+.landing-container {
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0.8;
 }
+
+.status {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+
 .myname {
   color: #ff7d00;
   font-size: 40px;
@@ -12,7 +17,17 @@
 }
 
 .myrole {
-  color: #dee2e6;
+  color: #000;
   font-size: 65px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  position: static;
+  float: left;
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  z-index: 100;
+  margin-bottom: 30px;
 }
