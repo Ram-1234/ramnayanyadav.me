@@ -1,0 +1,93 @@
+.myproject {
+  /* border: 1px solid black; */
+  padding-left: 10%;
+  padding-top: 2%;
+  height: max-content;
+}
+
+.serial-3 {
+  padding-top: 20px;
+  color: #ff7d00;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projects {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.project-name {
+  font-size: 40px;
+  color: #ff7d00;
+  font-family: arial;
+  margin: 20px 0px 20px;
+}
+
+.project-para {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 20px;
+  width: 600px;
+  word-spacing: 1px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+.project-1-div {
+  display: inline-flex;
+}
+
+.project1 {
+  border-radius: 10px;
+  float: right;
+  width: 450px;
+  height: 250px;
+  position: relative;
+  top: 65px;
+  left: 60px;
+}
+.image-Gallery-info1 {
+  position: relative;
+  bottom: 20px;
+}
+
+.project-2-div {
+  display: inline-flex;
+}
+.project2 {
+  border-radius: 10px;
+  width: 450px;
+  height: 250px;
+  position: relative;
+  top: 80px;
+}
+
+.image-Gallery-info2 {
+  position: relative;
+  top: 20px;
+  left: 120px;
+}
+
+.project-3-div {
+  display: inline-flex;
+  position: relative;
+  bottom: 60px;
+}
+.project3 {
+  border-radius: 10px;
+  float: right;
+  width: 450px;
+  height: 250px;
+  position: relative;
+  top: 140px;
+  left: 60px;
+  margin: 20px 0px 200px;
+}
+
+.image-Gallery-info3 {
+  position: relative;
+  bottom: -100px;
+}

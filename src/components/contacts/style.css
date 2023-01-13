@@ -1,0 +1,114 @@
+/* contact me */
+
+.contactme {
+  /* border: 1px solid black; */
+  padding-left: 10%;
+  padding-top: 3%;
+  background-color: #e9ecef;
+  height: 650px;
+  opacity: 0.8;
+}
+.serial-4 {
+  color: #ff7d00;
+  font-size: 30px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contactinfo {
+  display: flex;
+  margin: 40px 0px 40px;
+}
+form {
+  margin-left: 120px;
+  padding: 10px;
+}
+
+input {
+  padding: 15px;
+  border-style: none;
+  margin: 5px;
+  width: 94%;
+}
+
+textarea {
+  width: 650px;
+  height: 100px;
+  margin-left: 5px;
+  margin-top: 6px;
+  border-style: none;
+  padding: 15px;
+}
+textarea,
+input {
+  border: 1px solid lightgray;
+}
+
+button {
+  background-color: #ff7d00;
+  border-style: none;
+  font-size: 20px;
+  width: 99%;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 1px solid #4ea8de;
+  box-shadow: 0px 0px 8px #4ea8de;
+}
+
+/* social network icon */
+i {
+  font-size: 40px;
+  margin-right: 12px;
+}
+
+a {
+  color: #212529;
+}
+.same-icon-color {
+  /* color: #ff7d00; */
+  color: #3a86ff;
+}
+.same-pintrest-color {
+  color: #941b0c;
+}
+.same-whatsapp-color {
+  color: #0ead69;
+}
+.same-slack-color {
+  color: #ee4266;
+}
+
+i:hover {
+  transform: scale(1.02);
+}
+
+.social-net-icon {
+  margin: 10px 0px 10px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.email-id {
+  margin: 10px 0px 10px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.email-head {
+  margin: 10px 0px 10px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
