@@ -6,7 +6,7 @@
 
 .status {
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 5%;
 }
 
@@ -20,6 +20,7 @@
   color: #000;
   font-size: 65px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  word-wrap: break-word;
 }
 
 img {

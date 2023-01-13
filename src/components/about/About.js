@@ -50,7 +50,7 @@ function About() {
         <p className="skill">React Native</p>
       </div>
       <a
-        href="https://drive.google.com/file/d/1K_GyOPDd_Np9y60HSbAyoaMs-meT0zdm/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Khb79vIDfhS5cCOsXDye9x1TZmJsyD3L/view?usp=share_link"
         className="downloadresume"
         download="proposed_file_name"
       >
