@@ -5,7 +5,7 @@
   padding-left: 10%;
   padding-top: 3%;
   background-color: #e9ecef;
-  height: 650px;
+  height: auto;
   opacity: 0.8;
 }
 .serial-4 {
@@ -25,11 +25,20 @@
 
 .contactinfo {
   display: flex;
-  margin: 40px 0px 40px;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
 }
-form {
-  margin-left: 120px;
-  padding: 10px;
+.contacts-details {
+  width: 15%;
+  margin-left: -100px;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 60%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 input {
@@ -40,7 +49,7 @@ input {
 }
 
 textarea {
-  width: 650px;
+  width: 94%;
   height: 100px;
   margin-left: 5px;
   margin-top: 6px;
@@ -61,6 +70,8 @@ button {
   color: white;
   text-align: center;
   padding: 12px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 textarea:focus,
@@ -72,7 +83,7 @@ input:focus {
 
 /* social network icon */
 i {
-  font-size: 40px;
+  font-size: 30px;
   margin-right: 12px;
 }
 
@@ -89,6 +100,7 @@ a {
 .same-whatsapp-color {
   color: #0ead69;
 }
+
 .same-slack-color {
   color: #ee4266;
 }
@@ -111,4 +123,56 @@ i:hover {
   margin: 10px 0px 10px;
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media only screen and (max-width: 650px) {
+  .contactme {
+    height: auto;
+    background-color: #e9ecef;
+    height: auto;
+    opacity: 0.8;
+  }
+
+  .contactinfo {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .contacts-details {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  .form {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -50px;
+  }
+
+  input {
+    padding: 15px;
+    border-style: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #ff7d00;
+    border-style: none;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
 }

@@ -4,10 +4,13 @@ import "./style.css";
 function Contact() {
   return (
     <div className="contactme">
-      <h3 className="serial-4">__04</h3>
-      <p className="contact">Contact Me</p>
+      <div>
+        <h3 className="serial-4">__04</h3>
+        <p className="contact">Contact Me</p>
+      </div>
+
       <div className="contactinfo">
-        <div>
+        <div className="contacts-details">
           <p className="email-head">Email</p>
           <p className="email-id">ramnayan699@gmail.com</p>
           <p className="email-id">
@@ -31,13 +34,13 @@ function Contact() {
           >
             <i class="fab fa-twitter-square"></i>
           </a>
-          <a
+          {/* <a
             className="same-slack-color"
             href="https://app.slack.com/client/TN7HY14KE/CN8267ACQ"
             target="_block"
           >
             <i class="fab fa-slack"></i>
-          </a>
+          </a> */}
           <a
             className="same-icon-color"
             href="https://t.me/username"
@@ -52,7 +55,6 @@ function Contact() {
           >
             <i class="fab fa-facebook-square"></i>
           </a>
-          <br />
           <a
             className="same-whatsapp-color"
             href="https://web.whatsapp.com/"
@@ -68,7 +70,7 @@ function Contact() {
             <i class="fab fa-pinterest"></i>
           </a>
         </div>
-        <form>
+        <div className="form">
           <input type="text" placeholder="Your Name" required />
           <br />
           <input type="email" placeholder="Your E-mail" required />
@@ -78,7 +80,7 @@ function Contact() {
           <textarea type="text" placeholder="Your Message" required />
           <br />
           <button>SEND</button>
-        </form>
+        </div>
       </div>
     </div>
   );

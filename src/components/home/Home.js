@@ -5,8 +5,11 @@ import { Experience } from "../experience/Experience";
 import { Project } from "../projects/Project";
 import { Contact } from "../contacts/Contact";
 import { Landing } from "../landing";
+import { PortFolioTheme } from "../theme";
 
 function Home() {
+  const theme = new PortFolioTheme({});
+  console.log(theme);
   return (
     <div>
       <Header />

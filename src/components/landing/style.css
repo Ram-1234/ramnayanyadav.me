@@ -1,13 +1,12 @@
 .landing-container {
   justify-content: center;
   background: rgba(255, 255, 255, 0.2);
-  opacity: 0.8;
 }
 
 .status {
   position: absolute;
   top: 60%;
-  left: 5%;
+  right: 2%;
 }
 
 .myname {
@@ -19,7 +18,8 @@
 .myrole {
   color: #000;
   font-size: 65px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "Playfair Display", serif;
   word-wrap: break-word;
 }
 
@@ -31,4 +31,128 @@ img {
   opacity: 1;
   z-index: 100;
   margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 950px) {
+  .myname {
+    color: #ff7d00;
+    font-size: 34px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    word-wrap: break-word;
+  }
+
+  .myrole {
+    color: #000;
+    font-size: 45px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-wrap: break-word;
+  }
+
+  .status {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+  }
+  img {
+    position: static;
+    float: left;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    z-index: 100;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .myname {
+    color: #ff7d00;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .myrole {
+    color: #000;
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-wrap: break-word;
+  }
+
+  .status {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+  }
+
+  img {
+    position: static;
+    float: left;
+    width: 100%;
+    opacity: 1;
+    z-index: 100;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .myname {
+    color: #ff7d00;
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .myrole {
+    color: #000;
+    font-size: 35px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-wrap: break-word;
+  }
+
+  .status {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 40%;
+  }
+
+  img {
+    position: static;
+    float: left;
+    width: 100%;
+    opacity: 1;
+    z-index: 100;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .myname {
+    color: #ff7d00;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .myrole {
+    color: #000;
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-wrap: break-word;
+  }
+
+  .status {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    width: 20%;
+  }
+
+  img {
+    position: static;
+    float: left;
+    width: 100%;
+    opacity: 1;
+    z-index: 100;
+    margin-bottom: 30px;
+  }
 }

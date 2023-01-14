@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
 
-import ram3 from "./resources/rampf3.JPG";
-import ram4 from "./resources/rampf5.jpg";
+import ram4 from "./resources/rampf11.jpg";
 
 const Landing = () => {
   return (
