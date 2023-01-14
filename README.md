@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-Hosted Link: https://drive.google.com/file/d/1yPj3z7fvFWlHW7StJsF57SrtIEV_HuLO/view?usp=share_link
+Hosted Link: [https://drive.google.com/file/d/1yPj3z7fvFWlHW7StJsF57SrtIEV_HuLO/view?usp=share_link](https://sunny-brioche-60f606.netlify.app/)
 
 ### `npm start`
 
