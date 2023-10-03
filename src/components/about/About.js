@@ -51,7 +51,7 @@ function About() {
         <p className="skill">Node</p>
       </div>
       <a
-        href="https://drive.google.com/file/d/1yPj3z7fvFWlHW7StJsF57SrtIEV_HuLO/view?usp=share_link"
+        href="https://drive.google.com/file/d/1v0p4W7qUzkBqxu57DKwd4o6kX8qTqbs7/view?usp=sharing"
         className="downloadresume"
         download="proposed_file_name"
       >
