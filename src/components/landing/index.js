@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-import ram4 from "./resources/rampf11.jpg";
+import ram4 from "./resources/rampf3.JPG";
 
 const Landing = () => {
   return (
-    <div className="landing-container">
+    <div id="home" className="landing-container">
       <div>
         <img src={ram4} alt="my-avatar" className="ram" />
       </div>

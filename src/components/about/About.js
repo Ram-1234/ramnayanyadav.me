@@ -3,9 +3,9 @@ import "./style.css";
 
 function About() {
   return (
-    <p className="aboutme-div">
+    <div className="aboutme-div">
       <h3 className="serial-1">__01</h3>
-      <p className="knowabout">
+      <p id="about__page" className="knowabout">
         Know <br />
         About Me
       </p>
@@ -56,7 +56,7 @@ function About() {
       >
         Download Resume
       </a>
-    </p>
+    </div>
   );
 }
 

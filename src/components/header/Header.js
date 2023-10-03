@@ -3,14 +3,13 @@ import "./style.css";
 
 function Header() {
   return (
-    <>
-      <div className="header-div">
-        <span className="header-about">About</span>
-        <span className="header-experience">Experience</span>
-        <span className="header-project">Projects</span>
-        <span className="header-contact">Contact</span>
-      </div>
-    </>
+    <header className="header-div">
+      <a href="#home" className="home">Home</a>
+      <a href="#about__page" className="header-about">About</a>
+      <a href="#experience__page" className="header-experience">Experience</a>
+      <a href="#project__page" className="header-project">Projects</a>
+      <a href="#contact__page" className="header-contact">Contact</a>
+    </header>
   );
 }
 

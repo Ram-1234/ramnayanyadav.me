@@ -3,7 +3,7 @@ import "./style.css";
 
 function Contact() {
   return (
-    <div className="contactme">
+    <div id="contact__page" className="contactme">
       <div>
         <h3 className="serial-4">__04</h3>
         <p className="contact">Contact Me</p>

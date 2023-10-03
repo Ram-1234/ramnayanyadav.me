@@ -6,7 +6,7 @@ import weatherApp from "./resources/weatherApp.png";
 
 function Project() {
   return (
-    <div className="myproject">
+    <div id="project__page" className="myproject">
       <h3 className="serial-3">__03</h3>
       <p className="projects">
         My <br />

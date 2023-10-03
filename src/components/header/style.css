@@ -13,10 +13,13 @@
 .header-about,
 .header-experience,
 .header-project,
+.home,
 .header-contact {
   font-size: 15px;
   margin: 10px;
   padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: "Courier New", Courier, monospace;
   font-family: "Courier New", Courier, monospace;
@@ -25,12 +28,19 @@
 .header-about:hover {
   color: #e5383b;
 }
+
+.home:hover {
+  color: #e5383b;
+}
+
 .header-experience:hover {
   color: #ef476f;
 }
+
 .header-project:hover {
   color: #ef476f;
 }
+
 .header-contact:hover {
   color: #ef476f;
 }
@@ -43,6 +53,7 @@
   .header-about,
   .header-experience,
   .header-project,
+  .home,
   .header-contact {
     font-size: 16px;
   }

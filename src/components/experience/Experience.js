@@ -4,7 +4,7 @@ import Expeimg from "./resources/cometchat.png";
 
 function Experience() {
   return (
-    <div className="experienceme">
+    <div id="experience__page" className="experienceme">
       <h3 className="serial-2">__02</h3>
       <p className="experience">
         My <br />
