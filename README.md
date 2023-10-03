@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-Hosted Links: https://651bbdbb17c39838a23ff869--enchanting-custard-708e0d.netlify.app/#home
+Hosted Links: https://651bdc2fa864c90082bc6079--regal-pithivier-c386c3.netlify.app/
 
 ### `npm start`
 
