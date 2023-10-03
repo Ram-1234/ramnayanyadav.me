@@ -40,18 +40,22 @@ function Project() {
         <span className="image-Gallery-info2">
           <h4 className="project-name">___Book-Library</h4>
           <p className="project-para">
-            1. This is my single page react book Library that have features I.
-            Search a individual book by just enter book name and press search
-            button.
+            1. This is my single page react book Library that have features<br />
+            I. Search a individual book by just enter book name and press search
+            button.You can also filter the books by just dropdown button.
             <br />
-            II. Change the background color of the application that ahve two
+            II. Change the background color(theme) of the application that have two
             color black/white.
             <br />
+
             III. Filter the books by just select the dropdown button display
             only books that you want like- <strong>Story,</strong>{" "}
             <strong>Cultural</strong>,<strong> Historical</strong>,{" "}
             <strong>Faith.</strong>
             <br />
+            IV. Get Book descreption by clicking/press on book details button.
+            After press, you will get the popup modal that have book name & abouts.<br />
+
             2. In this appliaction I have tried to solve the problem of user
             Search book efficiently by two way by search the book name otherwise
             filter what type of book want to search like historical, story,

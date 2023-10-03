@@ -3,6 +3,9 @@
   padding-left: 10%;
   padding-top: 2%;
   height: max-content;
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+  background: radial-gradient(#000000a6, transparent);
 }
 
 .serial-3 {
@@ -11,6 +14,7 @@
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .projects {
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -45,10 +49,14 @@
   float: right;
   width: 450px;
   height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   position: relative;
   top: 65px;
   left: 60px;
 }
+
 .image-Gallery-info1 {
   position: relative;
   bottom: 20px;
@@ -57,6 +65,7 @@
 .project-2-div {
   display: inline-flex;
 }
+
 .project2 {
   border-radius: 10px;
   width: 450px;
@@ -76,6 +85,7 @@
   position: relative;
   bottom: 60px;
 }
+
 .project3 {
   border-radius: 10px;
   float: right;

@@ -3,7 +3,12 @@
 .aboutme-div {
   padding-left: 10%;
   height: max-content;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+  /* z-index: 100; */
+  /* background: #e9ecef */
+  background: radial-gradient(black, transparent);
 }
 
 .serial-1 {
@@ -62,11 +67,10 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
-  padding: 10px;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 40px;
   position: relative;
   top: 50px;
-  left: 40%;
+  left: 35%;
 }
 
 .downloadresume:hover {

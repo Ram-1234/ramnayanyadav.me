@@ -39,15 +39,16 @@ function About() {
         Always happy to create - Bold and hovered but some time! 😊
       </p>
       <div className="skills">
-        <p className="skill">JavaScript</p>
         <p className="skill">React Js</p>
-        <p className="skill">Angular</p>
-        <p className="skill">MongoDB</p>
-        <p className="skill">HTML5/CSS3</p>
-        <p className="skill">Node</p>
-        <p className="skill">Redux</p>
         <p className="skill">Vuejs</p>
         <p className="skill">React Native</p>
+        <p className="skill">JavaScript</p>
+        <p className="skill">TypeScript</p>
+        <p className="skill">Bootstrap</p>
+        <p className="skill">Redux</p>
+        <p className="skill">MongoDB</p>
+        <p className="skill">Coding & DSA</p>
+        <p className="skill">Node</p>
       </div>
       <a
         href="https://drive.google.com/file/d/1yPj3z7fvFWlHW7StJsF57SrtIEV_HuLO/view?usp=share_link"
