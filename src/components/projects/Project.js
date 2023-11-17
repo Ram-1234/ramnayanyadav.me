@@ -33,10 +33,14 @@ function Project() {
             <br />
           </p>
         </span>
+        <a href="https://github.com/Ram-1234/walpaper" target="blank">
         <img src={imgGallery} alt="experience photo" className="project1" />
+        </a>
       </div>
       <div className="project-2-div">
+      <a href="https://github.com/Ram-1234/book-library" target="blank" >
         <img src={bookLibrary} alt="experience photo" className="project2" />
+      </a>
         <span className="image-Gallery-info2">
           <h4 className="project-name">___Book-Library</h4>
           <p className="project-para">
@@ -92,7 +96,9 @@ function Project() {
             <br />
           </p>
         </span>
+        <a href="https://github.com/Ram-1234/weather-city-app" target="blank">
         <img src={weatherApp} alt="experience photo" className="project3" />
+        </a>
       </div>
     </div>
   );
