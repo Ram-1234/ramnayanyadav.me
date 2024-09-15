@@ -1,24 +1,24 @@
 import React from "react";
-import { Header } from "../header/Header";
+import { Navbar } from "../navbar";
 import { About } from "../about/About";
 import { Experience } from "../experience/Experience";
 import { Project } from "../projects/Project";
 import { Contact } from "../contacts/Contact";
-import { Landing } from "../landing";
+import { BgBanner } from "../bg-banner";
 import { PortFolioTheme } from "../theme";
 
 function Home() {
   const theme = new PortFolioTheme({});
-  console.log(theme);
+  
   return (
-    <div>
-      <Header />
-      <Landing />
+    <>
+      <Navbar />
+      <BgBanner />
       <About />
       <Experience />
       <Project />
       <Contact />
-    </div>
+    </>
   );
 }
 

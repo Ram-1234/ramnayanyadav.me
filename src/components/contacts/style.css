@@ -1,17 +1,15 @@
 /* contact me */
 
 .contactme {
-  /* border: 1px solid black; */
   padding-left: 10%;
   padding-top: 3%;
-  /* background-color: #e9ecef; */
   background: #fff;
   height: auto;
   opacity: 0.8;
-  /* background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
-  /* background: radial-gradient(black, transparent); */
+  background-color: #e9ecef;
+  /* border: 1px solid red; */
 }
+
 
 .serial-4 {
   color: #ff7d00;
@@ -138,10 +136,19 @@ i:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+#success{
+display: none;
+color: #0ead69;
+}
+
+#error{
+  display: none;
+  color: #941b0c;
+}
+
 @media only screen and (max-width: 650px) {
   .contactme {
     height: auto;
-    background-color: #e9ecef;
     height: auto;
     opacity: 0.8;
   }

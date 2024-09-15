@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-import ram4 from "./resources/rampf3.JPG";
+import banner from "../../assets/IMG_7184.JPG";
 
-const Landing = () => {
+const BgBanner = () => {
   return (
     <div id="home" className="landing-container">
       <div>
-        <img src={ram4} alt="my-avatar" className="ram" />
+        <img src={banner} alt="my-avatar" className="ram" />
       </div>
       <div className="status">
         <div className="myname">___Ramnayan Yadav</div>
@@ -17,4 +17,4 @@ const Landing = () => {
   );
 };
 
-export { Landing };
+export { BgBanner };

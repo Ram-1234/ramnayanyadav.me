@@ -1,14 +1,23 @@
 /* about me */
 
-.aboutme-div {
+.aboutme {
   padding-left: 10%;
   height: max-content;
-  margin-bottom: 80px;
-  /* background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
-  /* z-index: 100; */
-  /* background: #e9ecef */
   background: radial-gradient(black, transparent);
+}
+
+.about_content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_left{
+  width: 70%;
+}
+
+.about_right{
+  width: 25%;
+  padding-top: 10%;
 }
 
 .serial-1 {
@@ -29,18 +38,7 @@
 .aboutpara1 {
   font-family: "Courier New", Courier, monospace;
   line-height: 20px;
-  width: 70%;
   word-spacing: 1px;
-}
-
-.skills {
-  float: right;
-  width: 25%;
-  height: auto;
-  position: relative;
-  bottom: 250px;
-  /* right: 60px; */
-  /* border: 1px solid black; */
 }
 
 .skill {
@@ -62,15 +60,19 @@
   transform: scale(1.02);
 }
 
+.myresume{
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .downloadresume {
   text-decoration: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
-  padding: 10px 40px;
-  position: relative;
-  top: 50px;
-  left: 35%;
+  padding: 1rem 0.5rem;
 }
 
 .downloadresume:hover {
