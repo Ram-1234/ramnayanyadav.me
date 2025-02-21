@@ -113,9 +113,11 @@ img {
 
   .status {
     position: absolute;
-    top: 15%;
-    right: 5%;
-    width: 40%;
+    top: 26%;
+    left: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   img {

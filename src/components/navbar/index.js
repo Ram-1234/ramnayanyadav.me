@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <header className="header-div" style={{background: window.innerHeight>650 ? "white":"transparent"}}>
+    <header className="d-xxl-block d-md-none  header-div" style={{background: window.innerHeight>650 ? "white":"transparent"}}>
      <nav>
       <ul>
         <li> <a href="#home" className="home">Home</a></li>
@@ -17,4 +17,4 @@ function Navbar() {
   );
 }
 
-export { Navbar };
+//export { Navbar };

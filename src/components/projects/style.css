@@ -31,7 +31,6 @@
 .project-para {
   font-family: "Courier New", Courier, monospace;
   line-height: 20px;
-  width: 600px;
   word-spacing: 1px;
   margin-bottom: 20px;
   padding-right: 20px;
@@ -65,8 +64,8 @@
 
 .project2 {
   border-radius: 10px;
-  width: 450px;
-  height: 250px;
+  width: 100%;
+  height: auto;
   position: relative;
   top: 80px;
 }
@@ -74,21 +73,17 @@
 .image-Gallery-info2 {
   position: relative;
   top: 20px;
-  left: 65px;
 }
 
 .project-3-div {
   display: inline-flex;
-  position: relative;
-  bottom: 60px;
 }
 
 .project3 {
   border-radius: 10px;
   float: right;
-  width: 450px;
-  height: 250px;
-  position: relative;
+  width: 100%;
+  height: auto;
   top: 140px;
   left: 60px;
   margin: 20px 0px 200px;
@@ -96,5 +91,4 @@
 
 .image-Gallery-info3 {
   position: relative;
-  bottom: -100px;
 }

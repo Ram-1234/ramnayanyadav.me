@@ -2,17 +2,12 @@ import React from "react";
 import "./style.css";
 import Expeimg from "./resources/cometchat.png";
 
-function Experience() {
+function ExCard({company,role,desc,dates}) {
   return (
-    <div id="experience__page" className="experienceme container-fluid">
-      <h3 className="serial-2">__02</h3>
-      <p className="experience">
-        My <br />
-        Experience
-      </p>
-      <p className="coursdate">Dec 2021 - Feb 2023</p>
+    <React.Fragment>
+      <p className="coursdate">Feb 2023 - Sep 2023</p>
       <div className="bootcamp">
-        <h2>CometChat</h2>
+        <h2>Fyntune</h2>
         <h4 style={{ color: "#ff7d00", marginBottom: "20px" }}>
           ___Frontend Developer
         </h4>
@@ -39,8 +34,8 @@ function Experience() {
         </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
-export { Experience };
+export { ExCard };

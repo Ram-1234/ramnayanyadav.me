@@ -1,23 +1,13 @@
-/* about me */
-
 .aboutme {
   padding-left: 10%;
   height: max-content;
-  background: radial-gradient(black, transparent);
-}
-
-.about_content{
-  display: flex;
-  justify-content: space-between;
-}
-
-.about_left{
-  width: 70%;
+  background: radial-gradient(rgb(113, 113, 113), transparent);
 }
 
 .about_right{
-  width: 25%;
-  padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
 }
 
 .serial-1 {
@@ -47,7 +37,7 @@
   padding: 10px;
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
-  display: inline-flex;
+  display: flex;
   cursor: pointer;
   color: #fff;
   line-height: 24px;

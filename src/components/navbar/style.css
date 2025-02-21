@@ -7,13 +7,12 @@ ul{
   justify-content: center;
 }
 li{
-  /* border: 1px solid; */
   margin: 2% 0;
+  overflow: hidden;
 }
 
 .header-div {
   position: fixed;
-  /* background-color: white; */
   background-color: transparent;
   border: 0px solid white;
   justify-content: center;
@@ -89,6 +88,7 @@ li{
 @media only screen and (max-width: 650px) {
   .header-div {
     padding: 20px;
+    background: transparent!important;
   }
 
   .header-about,
@@ -96,6 +96,20 @@ li{
   .header-project,
   .header-contact {
     font-size: 13px;
+  }
+  .landing-container{
+    margin-top: 4rem;
+  }
+
+  .navbar-toggler{
+    display: flex;
+    border: none;
+    outline: none;
+  }
+  .navbar-toggler:focus{
+    border: none;
+    outline: none;
+    box-shadow:none;
   }
 }
 

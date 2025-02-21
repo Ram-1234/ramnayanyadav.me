@@ -3,10 +3,10 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="aboutme">
+    <div className="aboutme container-fluid">
       <h3 className="serial-1">__01</h3>
-      <div className="about_content">
-        <div className="about_left">
+      <div className="about_content row">
+        <div className="about_left col-lg-9 col-md-12">
           <p id="about__page" className="knowabout">
             Know <br />
             About Me
@@ -19,11 +19,11 @@ function About() {
             details and passion for building interactive user experiences for the
             web. I have extensive knowledge of Object-Oriented Programming as well
             as significant experience of using modern JS Library & framework such as
-            Reactjs Vuejs React native and Angular, nodejs framework such as
-            Expressjs.
+            Reactjs Vuejs and React native, nodejs framework such as
+            Express.js.
             <br />
             <br />
-            I am proficient in PHP, JS and Java. I like to build things and tinker
+            I am proficient in Javascript, Responsive design. I like to build things and tinker
             with new technologies. I believe Language or technology is just a tool
             to achieve what is required, hence I am language agnostic and I tend to
             learn new technologies very quickly.
@@ -37,11 +37,11 @@ function About() {
             shows.
           </p>
           <br />
-          <p className="aboutpara1" style={{ color: "#ff7d00" }}>
+          <p className="aboutpara1" style={{ color: "#fff" }}>
             Always happy to create - Bold and hovered but some time! 😊
           </p>
         </div>
-        <div className="about_right skills">
+        <div className="about_right skills col-lg-3 col-md-12">
           <p className="skill">React Js</p>
           <p className="skill">Vuejs</p>
           <p className="skill">React Native</p>
@@ -54,16 +54,12 @@ function About() {
           <p className="skill">Node.js</p>
           <p className="skill">Express.js</p>
           <p className="skill">jQuery</p>
-          <p className="skill">Material UI</p>
-          
+          <p className="skill">Sementic UI</p>
+          <p className="skill">Responsive Design</p>
         </div>
       </div>
-      <div className="myresume">
-        <a
-          href="https://drive.google.com/file/d/1v0p4W7qUzkBqxu57DKwd4o6kX8qTqbs7/view?usp=sharing"
-          className="downloadresume"
-          download="proposed_file_name"
-        >
+      <div className="myresume col-lg-12 text-center">
+        <a href="https://drive.google.com/file/d/10JrwSx4K_hRXaF2qYEyI9irem4kl5iDr/view?usp=sharing" target="_blank" rel="noopener" className="downloadresume" download="proposed_file_name" >
           Download Resume
         </a>
       </div>
