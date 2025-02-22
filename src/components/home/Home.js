@@ -7,6 +7,7 @@ import { Contact } from "../contacts/Contact";
 import { BgBanner } from "../bg-banner";
 import { PortFolioTheme } from "../theme";
 import { Navbar } from "../navbar/navbar";
+import { Swiper } from "../carousel";
 
 function Home() {
   const theme = new PortFolioTheme({});
@@ -16,6 +17,7 @@ function Home() {
         <Navbar />
         <BgBanner />
         <About />
+        <Swiper />
         <Experience />
         <Project />
         <Contact />
