@@ -44,3 +44,30 @@
   width: 100%;
   height: auto;
 }
+
+.carousel-mainbox{
+  display: none;
+}
+
+.experince-card-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.experince-card-wrapper {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.experienceimg{
+  border: 0.1rem solid #000;
+}
+
+#experience__page{
+  padding-left: 10%;
+}

@@ -16,9 +16,6 @@ import pwa from "../../assets/pwa.webp";
 import prisma from "../../assets/prisma.jpg";
 import jquery from "../../assets/jquery.png";
 import mongodb from "../../assets/mongodb.png";
-import { waitFor } from '@testing-library/react';
-
-
 
 const Swiper = () => {
     const [data, setData] = useState([]);
@@ -28,65 +25,63 @@ const Swiper = () => {
 
    }
 
-
-
   return (
         <div className="container-fluid carousel-main">
             <div className='row'>
                 <div className='col-lg-12 tech-title text-center text-light mt-0 pt-0'>
                     <p>Skilled Software Developer</p>
                 </div>
-               <div className='col-lg-12'>
-                    <div className="carousel-box card-box1" onMouseEnter={mouseEneterTopRow} style={{animationPlayState:"pause", animationFillMode: 'forwards'}}>
+               <div className='col-lg-12 scroll-wrap'>
+                    <div className="carousel-box primary-carousel" onMouseEnter={mouseEneterTopRow} style={{animationPlayState:"pause", animationFillMode: 'forwards'}}>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={react} width={200} height={200} alt="react"/>
+                            <img class="d-block w-100" src={react} width={200}  title='React.js, javascript library' height={200} alt="react"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={js} width={200} height={200} alt="javascript"/>
+                            <img class="d-block w-100" src={js} width={200}  title='Javascript, backbone of webapp' height={200} alt="javascript"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={vue} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={vue} width={200}  title='Vue.js, javascript framwork' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={coponent} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={coponent} width={200}  title='UI Component' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={bootstrap} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={bootstrap} width={200}  title='bootstrap, css framework' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={nodejs} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={nodejs} width={200}  title='Node.js® is a free, open-source, cross-platform JavaScript runtime environment' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={express} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={express} width={200}  title='Express.js, is node.js library' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={redux} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={redux} width={200}  title='Redux, state managment library' height={200} alt="vue.js"/>
                         </div>
                     </div>
-                    <div className='carousel-box card-box2'>
+                    <div className='carousel-box secondry-carousel'>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={pwa} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={pwa} width={200}  title='PWA, progressive web app' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={html} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={html} width={200}  title='HTML, markup language' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={css} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={css} width={200}  title='CSS' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={drupal} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={drupal} width={200}  title='Drupal, content managment system' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={sementicui} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={sementicui} width={200}  title='Sementic UI, web development code writing style' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={prisma} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={prisma} width={200}  title='Prisma' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={jquery} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={jquery} width={200}  title='JQuery, javascript library ' height={200} alt="vue.js"/>
                         </div>
                         <div class="slider-item">
-                            <img class="d-block w-100" src={mongodb} width={200} height={200} alt="vue.js"/>
+                            <img class="d-block w-100" src={mongodb} width={200}  title='MONGODB, database system(nosql)' height={200} alt="vue.js"/>
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
