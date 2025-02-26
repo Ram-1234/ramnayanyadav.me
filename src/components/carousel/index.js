@@ -22,7 +22,6 @@ const Swiper = () => {
     const [enter, setEnter] = useState(false);
 
    const mouseEneterTopRow=()=>{
-
    }
 
   return (
@@ -32,7 +31,7 @@ const Swiper = () => {
                     <p>Skilled Software Developer</p>
                 </div>
                <div className='col-lg-12 scroll-wrap'>
-                    <div className="carousel-box primary-carousel" onMouseEnter={mouseEneterTopRow} style={{animationPlayState:"pause", animationFillMode: 'forwards'}}>
+                    <div className="carousel-box primary-carousel  d-flex justify-content-center" onMouseEnter={mouseEneterTopRow} style={{animationPlayState:"pause", animationFillMode: 'forwards'}}>
                         <div class="slider-item">
                             <img class="d-block w-100" src={react} width={200}  title='React.js, javascript library' height={200} alt="react"/>
                         </div>
@@ -58,7 +57,7 @@ const Swiper = () => {
                             <img class="d-block w-100" src={redux} width={200}  title='Redux, state managment library' height={200} alt="vue.js"/>
                         </div>
                     </div>
-                    <div className='carousel-box secondry-carousel'>
+                    <div className='carousel-box secondry-carousel  d-flex justify-content-center'>
                         <div class="slider-item">
                             <img class="d-block w-100" src={pwa} width={200}  title='PWA, progressive web app' height={200} alt="vue.js"/>
                         </div>
@@ -84,11 +83,11 @@ const Swiper = () => {
                             <img class="d-block w-100" src={mongodb} width={200}  title='MONGODB, database system(nosql)' height={200} alt="vue.js"/>
                         </div>
                     </div>
-                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a className="carousel-control-prev d-none" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a className="carousel-control-next d-none" href="#carouselExampleIndicators" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>

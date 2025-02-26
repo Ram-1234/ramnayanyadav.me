@@ -5,25 +5,20 @@ import {ExperienceCard} from "./ExCard";
 
 function Experience() {
   
-
   return (
-    <div id="experience__page" className="experienceme-container container-fluid">
+    <div id="experience__page" className="experienceme-container container-fluid pt-5">
       <h3 className="serial-2">__02</h3>
       <p className="experience">
         My <br />
         Experience
       </p>
-      <div className="row">
-        <div className="col-lg-12 experince-card-wrapper">
-            {jsonData && jsonData.map((item, index)=>{
-              return <ExperienceCard
-              key={index+1}
-              id={index}
-                  {...item}
-              />
-            })}
-        </div>
-      </div>
+      {jsonData && jsonData.map((item, index)=>{
+        return <ExperienceCard
+        key={index+1}
+        id={index}
+            {...item}
+        />
+      })}
     </div>
   );
 }

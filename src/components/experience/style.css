@@ -45,23 +45,27 @@
   height: auto;
 }
 
-.carousel-mainbox{
+/* .carousel-mainbox{
   display: none;
-}
+} */
 
-.experince-card-wrapper{
+.carousel-mainbox{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  position: relative;
   flex: 0 0 auto;
   overflow: hidden;
+  /* animation: experienceCarousel 5s linear infinite; */
 }
 
-.experince-card-wrapper {
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
+.carousel-mainbox:hover{
+  animation-play-state: paused;
+}
+
+@keyframes experienceCarousel {
+  from {left: 0px;}
+  to {left: -110%;}
 }
 
 .experienceimg{
@@ -70,4 +74,28 @@
 
 #experience__page{
   padding-left: 10%;
+}
+
+.element {
+  /* Initial state */
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  transition: opacity 0.4s ease, visibility 0s 0.3s;
+}
+
+.element.show {
+  /* Visible state */
+  opacity: 1;
+  visibility: visible;
+  display: block;
+  transition: opacity 0.5s ease, visibility 0s;
+}
+
+.expe-para .readmore{
+  background:rgb(255, 125, 0);
+  color:#f0f0f0;
+  font-weight:bold;
+  padding: 3px;
+  border-radius: 0.2rem;
 }

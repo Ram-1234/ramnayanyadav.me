@@ -1,6 +1,7 @@
 .carousel-main{
     background: #000;
     padding:2rem 0px ;
+    overflow: hidden;
 }
 
 .tech-title p{
@@ -42,7 +43,7 @@
 }
 
 .primary-carousel{
-    animation: moverCardRight 30s linear infinite;
+    animation: moverCardRight 20s linear infinite;
     animation-delay: 1s;
 }
 
@@ -52,7 +53,7 @@
 }
 
 .secondry-carousel{
-    animation: moverCardLeft  30s linear infinite;
+    animation: moverCardLeft  20s linear infinite;
     animation-delay: 1s;
 }
 

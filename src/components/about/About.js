@@ -3,7 +3,7 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="aboutme container-fluid">
+    <div className="aboutme container-fluid about__page pt-5">
       <h3 className="serial-1">__01</h3>
       <div className="about_content row">
         <div className="about_left col-lg-9 col-md-12">

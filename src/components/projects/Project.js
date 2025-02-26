@@ -5,6 +5,7 @@ import bookLibrary from "./resources/bookLibrary.png";
 import weatherApp from "./resources/weatherApp.png";
 
 function Project() {
+
   return (
     <div id="project__page" className="myproject container-fluid">
       <h3 className="serial-3">__03</h3>
@@ -41,8 +42,8 @@ function Project() {
           </a>
         </div>
       </div>
-      <div className="project-2-div row">
-        <div class="col-lg-6 col-md-12">
+      <div className="project-2-div row pb-lg-5 mb-lg-5">
+        <div class="img-top col-xll-6 col-xl-6 col-lg-6 d-lg-block d-xl-block d-xll-block d-sm-none d-md-none">
           <a href="https://github.com/Ram-1234/book-library" target="blank" >
             <img src={bookLibrary} alt="experience photo" className="project2" />
           </a>
@@ -80,6 +81,11 @@ function Project() {
               <br />
             </p>
           </span>
+        </div>
+        <div class="img-bottom d-xl-none d-xll-none d-lg-none col-md-12 d-sm-block d-md-block">
+          <a href="https://github.com/Ram-1234/book-library" target="blank" >
+            <img src={bookLibrary} alt="experience photo" className="project2" />
+          </a>
         </div>
       </div>
       <div className="project-3-div row">

@@ -92,3 +92,20 @@
 .image-Gallery-info3 {
   position: relative;
 }
+
+
+@media only screen and (max-width: 576px) {
+  .project-2-div .img-top{
+    display: none!important;
+  }
+  .project-2-div .img-bottom{
+    display: block!important;
+  }
+  .project2{
+    top: 0!important;
+  }
+  .project3{
+    margin-bottom: 2rem !important;
+
+  }
+}

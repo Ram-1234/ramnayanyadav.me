@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import Carousel from "../carousel/carousel";
 import comechat from "./resources/cometchat.png";
 import dsci from "./resources/dsci.png";
 import techsagar from "./resources/techsagar.png";
@@ -8,6 +7,7 @@ import fyntune from "./resources/fyntune1.png";
 
 export const ExperienceCard=({name,responsibility,descreption,date,city, position, id})=>{
   const [logo, setLogo]=useState('');
+  const [readMore, setReadMore]=useState(false);
   const [nob, setNob]=useState(0);
 
   const nextHandler=()=>{
@@ -18,8 +18,18 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
     }
   }
 
+  const mouseEnter=()=>{
+    console.log("mouse enter");
+    // setNob(5)
+  }
+
+  const mouseLeave=()=>{
+    console.log("mouse leave");
+    // setNob(0)
+  }
+
   useEffect(()=>{
-    let timeId = setInterval(nextHandler, 4000);
+    let timeId = setInterval(nextHandler, 5000);
     return ()=> clearInterval(timeId);
   },[nob])
 
@@ -32,9 +42,8 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
   },[name]);
 
   return (
-      <div className={`row col-12 m-2 carousel-mainbox`} style={{display:nob===id?'block':"none"}} id={id}>
-        <div className="w-100 experince-card-wrapper">
-          <div className="col-lg-6 col-md-12">
+      <div className={`row carousel-mainbox ${nob===id?"element.show":"element"}`} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} id={id}>
+          <div className="col-lg-6 col-md-12 col-sm-12">
               <p className="coursdate">{date}</p>
               <h2>{name}</h2>
               <h4 style={{ color: "#ff7d00", marginBottom: "20px" }}>
@@ -46,13 +55,12 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
               </p>
               <div>Major Project Responsibilities</div>
               <p className="expe-para">
-                {responsibility.slice(0,350)}...
+                { readMore? responsibility : responsibility.slice(0,400)}{" "}<span className="readmore" onClick={()=>setReadMore(!readMore)} >{readMore? "Read Less":"Read More"}</span>
               </p>
           </div>
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <img src={logo} alt="experience-avatar" title="cometchat" className="experienceimg" />
           </div>
-        </div>
       </div>
   );
 }

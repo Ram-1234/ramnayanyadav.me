@@ -5,7 +5,7 @@ import banner from "../../assets/IMG_7184.JPG";
 
 const BgBanner = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid pt-5">
       <div className="row">
         <div className="col-lg-12">
         <div id="home" className="landing-container">
