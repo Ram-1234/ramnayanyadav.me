@@ -19,7 +19,7 @@ export const Navbar = () => {
                         {/*** mobile view */}
                         <nav class="d-lg-none d-xl-none d-xxl-none d-sm-block d-sm-block navbar bg-body-tertiary fixed-top">
                             <div class="container-fluid">
-                                <a class="navbar-brand d-none" href="#">Qurious Post</a>
+                                <a class="navbar-brand d-none" href="#"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                                 </button>

@@ -3,6 +3,7 @@ import "./style.css";
 import imgGallery from "./resources/imageGallery.png";
 import bookLibrary from "./resources/bookLibrary.png";
 import weatherApp from "./resources/weatherApp.png";
+import quriousPost from "./resources/qurious-post.png"
 
 function Project() {
 
@@ -16,29 +17,27 @@ function Project() {
       <div className="project-1-div row">
         <div class="col-lg-6 col-md-12">
           <span className="image-Gallery-info1">
-            <h4 className="project-name">___Walpaper</h4>
+            <h4 className="project-name">Qurious Post</h4>
             <p className="project-para">
-              1. This is my single page react walpaper application that have
-              header buttons each individual button have different type of images.
-              <br />
-              <br />
-              2. I tyried to solve the problem of user that no need to think more
-              about what type of image user need to search all the buttons is
-              available at the front of the user. user just need to press the
-              button what type of walpaper user want to display.
-              <br />
-              <br />
-              3. In This application i have used the frontend technologies is
-              <strong> html</strong> <strong>css</strong> <strong>react</strong>
-              <strong> javascript</strong> and javascript.
-              <br />
-              <br />
+              <strong>1: </strong>I have developed a web application that enables users to register, log in, create, and read posts. 
+              <br/>
+              <br/>
+              <strong>2: </strong>Additionally, I have integrated an AI chat feature on a separate route to enhance user interaction. 
+              <br/>
+              <br/>
+              <strong>3: </strong>The application is built using modern technologies, including React.js, JavaScript, CSS, HTML, and Bootstrap. 
+              <br/>
+              <br/>
+              <strong>4: </strong>You also implemented custom hooks and a custom carousel to improve functionality and user experience. 
+              <br/>
+              <br/>
+              <strong>5: </strong>This project demonstrates my ability to create interactive and feature-rich web applications with optimized performance. 🚀
             </p>
           </span>
         </div>
         <div class="col-lg-6 col-md-12">
           <a href="https://github.com/Ram-1234/walpaper" target="blank">
-            <img src={imgGallery} alt="experience photo"/>
+            <img src={quriousPost} alt="experience photo"/>
           </a>
         </div>
       </div>
