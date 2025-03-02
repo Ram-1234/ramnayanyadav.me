@@ -3,7 +3,7 @@ import "./style.css";
 
 function Contact() {
   return (
-      <div id="contact__page container-fluid mt-5" className="contactme">
+      <div id="contact__page" className="contactme container-fluid">
        <div className="row">
             <div className="col-lg-4 col-md-5">
               <h3 className="serial-4">__04</h3>
