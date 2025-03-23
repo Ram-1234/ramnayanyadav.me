@@ -29,7 +29,7 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
   }
 
   useEffect(()=>{
-    let timeId = setInterval(nextHandler, 5000);
+    let timeId = setInterval(nextHandler, 3000);
     return ()=> clearInterval(timeId);
   },[nob])
 

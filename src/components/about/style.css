@@ -1,7 +1,8 @@
 .aboutme {
   padding-left: 10%;
   height: max-content;
-  background: radial-gradient(rgb(113, 113, 113), transparent);
+  /* background: radial-gradient(rgb(113, 113, 113), transparent); */
+  background-color: #fff;
 }
 
 .about_right{

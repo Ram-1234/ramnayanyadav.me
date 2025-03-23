@@ -28,14 +28,14 @@ li{
 .header-project,
 .home,
 .header-contact {
-  font-size: 15px;
+  font-size: 0.9rem;
   margin: 10px;
   padding: 5px;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Courier New", Courier, monospace;
-  font-family: "Courier New", Courier, monospace;
+  color: #000;
+  font-weight: 600;
 }
 
 .header-about:hover {

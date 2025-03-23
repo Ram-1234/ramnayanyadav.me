@@ -2,7 +2,8 @@
   padding-left: 10%;
   padding-top: 2%;
   height: max-content;
-  background: radial-gradient(#000000a6, transparent);
+  /* background: radial-gradient(#000000a6, transparent); */
+  background: #fff;
 }
 
 .serial-3 {

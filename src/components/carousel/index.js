@@ -16,6 +16,7 @@ import pwa from "../../assets/pwa.webp";
 import prisma from "../../assets/prisma.jpg";
 import jquery from "../../assets/jquery.png";
 import mongodb from "../../assets/mongodb.png";
+import Marquee from 'react-fast-marquee';
 
 const Swiper = () => {
     const [data, setData] = useState([]);

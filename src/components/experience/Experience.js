@@ -13,11 +13,11 @@ function Experience() {
         Experience
       </p>
       {jsonData && jsonData.map((item, index)=>{
-        return <ExperienceCard
-        key={index+1}
-        id={index}
-            {...item}
-        />
+        return  <ExperienceCard
+                key={index+1}
+                id={index}
+                    {...item}
+                />
       })}
     </div>
   );

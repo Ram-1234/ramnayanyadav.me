@@ -45,10 +45,6 @@
   height: auto;
 }
 
-/* .carousel-mainbox{
-  display: none;
-} */
-
 .carousel-mainbox{
   display: flex;
   align-items: flex-start;
@@ -56,7 +52,7 @@
   position: relative;
   flex: 0 0 auto;
   overflow: hidden;
-  /* animation: experienceCarousel 5s linear infinite; */
+  /* animation: experienceCarousel 2s linear infinite; */
 }
 
 .carousel-mainbox:hover{
@@ -65,7 +61,7 @@
 
 @keyframes experienceCarousel {
   from {left: 0px;}
-  to {left: -110%;}
+  to {left: -10%;}
 }
 
 .experienceimg{

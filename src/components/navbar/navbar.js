@@ -1,12 +1,12 @@
 import React from 'react';
-import "./style.css"
+import "./style.css";
 
 export const Navbar = () => {
     return (
         <React.Fragment>
             <div class="container-fluid">
                 <div class="row">
-                    <header className="header-div" style={{background: window.innerHeight>650 ? "white":"transparent"}}>
+                    <header className="header-div" style={{background: window.innerHeight>150 ? "white":rgb(255,255,255,0.8)}}>
                         <nav class='d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none '>
                             <ul>
                                 <li> <a href="#home" className="home">Home</a></li>

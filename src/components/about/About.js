@@ -37,7 +37,7 @@ function About() {
             shows.
           </p>
           <br />
-          <p className="aboutpara1" style={{ color: "#fff" }}>
+          <p className="aboutpara1">
             Always happy to create - Bold and hovered but some time! 😊
           </p>
         </div>
