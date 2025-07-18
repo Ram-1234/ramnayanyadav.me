@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import imgGallery from "./resources/imageGallery.png";
-import bookLibrary from "./resources/bookLibrary.png";
+import bookLibrary from "./resources/book_library.png";
 import weatherApp from "./resources/weatherApp.png";
 import quriousPost from "./resources/qurious-post.png"
 
@@ -19,30 +19,28 @@ function Project() {
           <span className="image-Gallery-info1">
             <h4 className="project-name">Qurious Post</h4>
             <p className="project-para">
-              <strong>1: </strong>I have developed a web application that enables users to register, log in, create, and read posts. 
+              <strong>1: </strong>Developed a dynamic full-stack web application with robust user authentication, enabling seamless registration, login, post creation, and content browsing.
               <br/>
+              <strong>2: </strong>Integrated an AI-powered chat feature on a dedicated route, enriching the user experience with intelligent interaction. 
               <br/>
-              <strong>2: </strong>Additionally, I have integrated an AI chat feature on a separate route to enhance user interaction. 
+              <strong>3: </strong>Engineered the frontend using React.js, JavaScript, HTML, CSS, and Bootstrap for a responsive and modern interface.
               <br/>
+              <strong>4: </strong>Implemented custom React hooks to streamline logic, enhance reusability, and improve application scalability.
               <br/>
-              <strong>3: </strong>The application is built using modern technologies, including React.js, JavaScript, CSS, HTML, and Bootstrap. 
+              <strong>5:</strong>Designed and built a custom carousel component to elevate visual engagement and UI interactivity.
               <br/>
-              <br/>
-              <strong>4: </strong>You also implemented custom hooks and a custom carousel to improve functionality and user experience. 
-              <br/>
-              <br/>
-              <strong>5: </strong>This project demonstrates my ability to create interactive and feature-rich web applications with optimized performance. 🚀
+              <strong>6: </strong>This project demonstrates my ability to create interactive and feature-rich web applications with optimized performance. 🚀
             </p>
           </span>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 pf-project-thumbnail">
           <a href="https://github.com/Ram-1234/walpaper" target="blank">
             <img src={quriousPost} alt="experience photo"/>
           </a>
         </div>
       </div>
-      <div className="project-2-div row pb-lg-5 mb-lg-5">
-        <div class="img-top col-xll-6 col-xl-6 col-lg-6 d-lg-block d-xl-block d-xll-block d-sm-none d-md-none">
+      <div className="project-2-div row">
+        <div class="img-top col-xll-6 col-xl-6 col-lg-6 d-lg-block d-xl-block d-xll-block d-sm-none d-md-none pf-project-thumbnail">
           <a href="https://github.com/Ram-1234/book-library" target="blank" >
             <img src={bookLibrary} alt="experience photo" className="project2" />
           </a>
@@ -50,7 +48,7 @@ function Project() {
         <div class="col-lg-6 col-md-12">
           <span className="image-Gallery-info2">
             <h4 className="project-name">___Book-Library</h4>
-            <p className="project-para">
+            <p className="project-para pt-4">
               1. This is my single page react book Library that have features<br />
               I. Search a individual book by just enter book name and press search
               button.You can also filter the books by just dropdown button.
@@ -58,7 +56,6 @@ function Project() {
               II. Change the background color(theme) of the application that have two
               color black/white.
               <br />
-
               III. Filter the books by just select the dropdown button display
               only books that you want like- <strong>Story,</strong>{" "}
               <strong>Cultural</strong>,<strong> Historical</strong>,{" "}
@@ -111,7 +108,7 @@ function Project() {
             </p>
           </span>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 pf-project-thumbnail">
           <a href="https://github.com/Ram-1234/weather-city-app" target="blank">
             <img src={weatherApp} alt="experience photo" className="project3" />
           </a>

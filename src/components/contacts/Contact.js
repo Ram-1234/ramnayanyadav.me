@@ -1,7 +1,33 @@
-import React from "react";
+import React,{useState} from "react";
+
 import "./style.css";
+import axios from "axios";
 
 function Contact() {
+  const [formData,setFormData] = useState({});
+  const [message, setMessage] = useState(null);
+
+  function onChangeHandle(event) {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  }
+
+  async function handleSubmit(event) {
+    try {
+       event.preventDefault();
+       let res = await axios.post("http://localhost:8001/index.php", formData);
+       console.log("Response:", res);
+      // You can add form validation here if needed
+      // Here you can handle the form submission, e.g., send data to a server
+      console.log("Form submitted:", formData);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  }
+
   return (
       <div id="contact__page" className="contactme container-fluid">
        <div className="row">
@@ -39,14 +65,14 @@ function Contact() {
               </div>
             </div>
             <div className="contactinfo col-lg-8 col-md-7">
-              <form className="form contact-bg" id="contact-form" name="contact" method="post">
-                <input type="text" name="name" placeholder="Your Name" required />
+              <form onSubmit={handleSubmit} className="form contact-bg" id="contact-form" action="http://localhost:3608/index.php" name="contact" method="post">
+                <input type="text" onChange={onChangeHandle} name="name" placeholder="Your Name" required />
                 <br />
-                <input type="email" name="email" placeholder="Your E-mail" required />
+                <input type="email" onChange={onChangeHandle} name="email" placeholder="Your E-mail" required />
                 <br />
-                <input type="text" name="phone" placeholder="Phone Number" required />
+                <input type="text" onChange={onChangeHandle} name="phone" placeholder="Phone Number" required />
                 <br />
-                <textarea name="message" type="text" placeholder="Your Message" required />
+                <textarea type="text" onChange={onChangeHandle} name="message" placeholder="Your Message" required />
                 <br />
                 <button id="submit" type="submit" name="submit">SEND</button>
                 <div id="success">

@@ -9,6 +9,7 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
   const [logo, setLogo]=useState('');
   const [readMore, setReadMore]=useState(false);
   const [nob, setNob]=useState(0);
+  const [mouseMove, setMouse]=useState(false);
 
   const nextHandler=()=>{
     if(nob<2){
@@ -21,15 +22,18 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
   const mouseEnter=()=>{
     console.log("mouse enter");
     // setNob(5)
+    setMouse(true);
   }
 
   const mouseLeave=()=>{
     console.log("mouse leave");
     // setNob(0)
+    setMouse(false);
   }
 
   useEffect(()=>{
-    let timeId = setInterval(nextHandler, 3000);
+    let timeId=null;
+    timeId = setInterval(nextHandler, 5000);
     return ()=> clearInterval(timeId);
   },[nob])
 
@@ -43,7 +47,7 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
 
   return (
       <div className={`row carousel-mainbox ${nob===id?"element.show":"element"}`} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} id={id}>
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12 experience-left" style={{backgroundColor: mouseMove? "#f5f5f5":""}}>
               <p className="coursdate">{date}</p>
               <h2>{name}</h2>
               <h4 style={{ color: "#ff7d00", marginBottom: "20px" }}>
@@ -55,10 +59,10 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
               </p>
               <div>Major Project Responsibilities</div>
               <p className="expe-para">
-                { readMore? responsibility : responsibility.slice(0,400)}{" "}<span className="readmore" onClick={()=>setReadMore(!readMore)} >{readMore? "Read Less":"Read More"}</span>
+                { readMore? responsibility : responsibility.slice(0,480)}{" "}<span className="readmore" onClick={()=>setReadMore(!readMore)} >{readMore? "Read Less":"Read More"}</span>
               </p>
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12 experience-right">
             <img src={logo} alt="experience-avatar" title="cometchat" className="experienceimg" />
           </div>
       </div>

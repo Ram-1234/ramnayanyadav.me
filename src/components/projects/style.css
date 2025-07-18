@@ -31,7 +31,7 @@
 
 .project-para {
   font-family: "Courier New", Courier, monospace;
-  line-height: 20px;
+  line-height: 28px;
   word-spacing: 1px;
   margin-bottom: 20px;
   padding-right: 20px;
@@ -87,11 +87,15 @@
   height: auto;
   top: 140px;
   left: 60px;
-  margin: 20px 0px 200px;
+  margin: 0px 0px 100px;
 }
 
 .image-Gallery-info3 {
   position: relative;
+}
+
+.pf-project-thumbnail{
+  padding-top: 4rem!important;
 }
 
 
@@ -106,7 +110,6 @@
     top: 0!important;
   }
   .project3{
-    margin-bottom: 2rem !important;
-
+    margin-bottom: 2rem !important; 
   }
 }
