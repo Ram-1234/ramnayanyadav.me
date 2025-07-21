@@ -33,13 +33,13 @@ function Project() {
             </p>
           </span>
         </div>
-        <div class="col-lg-6 col-md-12 pf-project-thumbnail">
+        <div class="col-lg-6 col-md-12 pf-project-thumbnail mt-3">
           <a href="https://github.com/Ram-1234/walpaper" target="blank">
             <img src={quriousPost} alt="experience photo"/>
           </a>
         </div>
       </div>
-      <div className="project-2-div row">
+      <div className="project-2-div row mb-5 pb-5">
         <div class="img-top col-xll-6 col-xl-6 col-lg-6 d-lg-block d-xl-block d-xll-block d-sm-none d-md-none pf-project-thumbnail">
           <a href="https://github.com/Ram-1234/book-library" target="blank" >
             <img src={bookLibrary} alt="experience photo" className="project2" />
@@ -47,35 +47,10 @@ function Project() {
         </div>
         <div class="col-lg-6 col-md-12">
           <span className="image-Gallery-info2">
-            <h4 className="project-name">___Book-Library</h4>
-            <p className="project-para pt-4">
-              1. This is my single page react book Library that have features<br />
-              I. Search a individual book by just enter book name and press search
-              button.You can also filter the books by just dropdown button.
-              <br />
-              II. Change the background color(theme) of the application that have two
-              color black/white.
-              <br />
-              III. Filter the books by just select the dropdown button display
-              only books that you want like- <strong>Story,</strong>{" "}
-              <strong>Cultural</strong>,<strong> Historical</strong>,{" "}
-              <strong>Faith.</strong>
-              <br />
-              IV. Get Book descreption by clicking/press on book details button.
-              After press, you will get the popup modal that have book name & abouts.<br />
-
-              2. In this appliaction I have tried to solve the problem of user
-              Search book efficiently by two way by search the book name otherwise
-              filter what type of book want to search like historical, story,
-              faith.
-              <br />
-              <br />
-              3. In This application i have used the frontend technologies is
-              <strong> html</strong> <strong>css</strong> <strong>react</strong>
-              <strong> javascript</strong> and javascript.
-              <br />
-              <br />
-            </p>
+            <h4 className="project-name mb-5">___Book-Library</h4>
+            <p className="project-para ">1- This is a single-page React Book Library application featuring a search function to quickly find books by name and a dropdown filter for efficient category-based browsing.</p>
+            <p className="project-para ">2- This single-page React Book Library application features intuitive book search by title, category-based filtering through a dropdown (including Story, Cultural, Historical, and Faith), and a customizable light/dark theme toggle for an enhanced user experience.</p>
+            <p className="project-para ">3- This application is built using front-end technologies including HTML, CSS, JavaScript, Bootstrap and React.</p>
           </span>
         </div>
         <div class="img-bottom d-xl-none d-xll-none d-lg-none col-md-12 d-sm-block d-md-block">
@@ -108,7 +83,7 @@ function Project() {
             </p>
           </span>
         </div>
-        <div class="col-lg-6 col-md-12 pf-project-thumbnail">
+        <div class="col-lg-6 col-md-12 pf-project-thumbnail mt-4">
           <a href="https://github.com/Ram-1234/weather-city-app" target="blank">
             <img src={weatherApp} alt="experience photo" className="project3" />
           </a>

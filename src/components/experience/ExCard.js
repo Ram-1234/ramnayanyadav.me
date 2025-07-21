@@ -47,7 +47,7 @@ export const ExperienceCard=({name,responsibility,descreption,date,city, positio
 
   return (
       <div className={`row carousel-mainbox ${nob===id?"element.show":"element"}`} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} id={id}>
-          <div className="col-lg-6 col-md-12 col-sm-12 experience-left" style={{backgroundColor: mouseMove? "#f5f5f5":""}}>
+          <div className="col-lg-6 col-md-12 col-sm-12 experience-left">
               <p className="coursdate">{date}</p>
               <h2>{name}</h2>
               <h4 style={{ color: "#ff7d00", marginBottom: "20px" }}>
